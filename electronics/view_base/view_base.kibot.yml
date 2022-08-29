@@ -6,6 +6,10 @@ preflight:
   run_drc: true
   run_erc: true
   update_xml: true
+  filters:
+    - filter: copper_edge_clearance
+      error: W058
+      regex: of J2 on F\.Cu
 
 outputs:
   - name: ibom
