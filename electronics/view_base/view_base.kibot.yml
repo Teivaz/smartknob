@@ -4,7 +4,7 @@ kibot:
 preflight:
   check_zone_fills: true
   run_drc: false
-  run_erc: true
+  run_erc: false
   update_xml: true
   filters:
     - filter: copper_edge_clearance
