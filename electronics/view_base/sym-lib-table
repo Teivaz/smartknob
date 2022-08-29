@@ -6,6 +6,5 @@
   (lib (name "strain")(type "Legacy")(uri "${KIPRJMOD}/../lib/strain.lib")(options "")(descr ""))
   (lib (name "Trinamic")(type "Legacy")(uri "${KIPRJMOD}/../lib/Trinamic.lib")(options "")(descr ""))
   (lib (name "VEML7700")(type "Legacy")(uri "${KIPRJMOD}/../lib/VEML7700.lib")(options "")(descr ""))
-  (lib (name "view_base-rescue")(type "Legacy")(uri "${KIPRJMOD}/view_base-rescue.lib")(options "")(descr ""))
-  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
+  (lib (name "llshifter")(type "KiCad")(uri "${KIPRJMOD}/../lib/llshifter.kicad_sym")(options "")(descr ""))
 )
