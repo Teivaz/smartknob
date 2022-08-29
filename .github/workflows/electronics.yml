@@ -32,6 +32,7 @@ jobs:
           PYTHONUNBUFFERED: 1
 
       - name: Render PCB 3D [view_base]
+        if: ${{ false }}
         run: |
           ./electronics/scripts/export_3d.py electronics/view_base/view_base.kicad_pcb --suffix front --width 1024 --height 1024 --skip-virtual --color-soldermask 1 1 1 --color-silk 0.1 0.1 0.1 --release-prefix releases/view_base/ transform z+ z+ rx+ rx+ rz- ry- ry- mu
           cp electronics/build/view_base-front-3d.png electronics/build/outputs
@@ -55,6 +56,7 @@ jobs:
           PYTHONUNBUFFERED: 1
 
       - name: Render PCB 3D [view_screen]
+        if: ${{ false }}
         run: |
           ./electronics/scripts/export_3d.py electronics/view_screen/view_screen.kicad_pcb --suffix front --width 1024 --height 1024 --skip-virtual --release-prefix releases/view_screen/ transform z+ z+ rx+ rx+ rz- ry- ry- mu
           cp electronics/build/view_screen-front-3d.png electronics/build/outputs
