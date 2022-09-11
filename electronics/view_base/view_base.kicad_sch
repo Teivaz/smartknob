@@ -4908,7 +4908,7 @@
     (property "Value" "BLDC" (id 1) (at 399.4912 169.7482 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Molex:532610371" (id 2) (at 398.78 171.45 0)
+    (property "Footprint" "Molex:Molex_Pico-Lock_504050-0591_1x05-1MP_P1.50mm_Horizontal" (id 2) (at 398.78 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 398.78 171.45 0)
@@ -8164,7 +8164,7 @@
       (reference "H9") (unit 1) (value "AlignmentHole") (footprint "Holes:MountingHole_2.2mm_M2_ISO7380_Pad_NonVirtual")
     )
     (path "/00000000-0000-0000-0000-000061f6e8c0"
-      (reference "J1") (unit 1) (value "BLDC") (footprint "Molex:532610371")
+      (reference "J1") (unit 1) (value "BLDC") (footprint "Molex:Molex_Pico-Lock_504050-0591_1x05-1MP_P1.50mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061fcaa5b"
       (reference "J2") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "GCT_USB:USB4510_NoPaste")
